@@ -4,5 +4,6 @@
         <page name='Print 1 to N'/>
         <page name='Print N to 1'/>
         <page name='Sort Array Using Recursion'/>
+        <page name='Sort Stack Using Recursion'/>
     </pages>
 </playground>
