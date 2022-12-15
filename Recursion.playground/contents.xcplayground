@@ -7,5 +7,6 @@
         <page name='Sort Stack Using Recursion'/>
         <page name='MiddleElementOfStack'/>
         <page name='Reverse A Stack Using Recursion'/>
+        <page name='Kth Symbol in Grammar '/>
     </pages>
 </playground>
