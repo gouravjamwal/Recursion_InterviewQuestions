@@ -6,10 +6,7 @@
         <page name='Sort Array Using Recursion'/>
         <page name='Sort Stack Using Recursion'/>
         <page name='MiddleElementOfStack'/>
-<<<<<<< Updated upstream
-=======
         <page name='Reverse A Stack Using Recursion'/>
         <page name='Kth Symbol in Grammar '/>
->>>>>>> Stashed changes
     </pages>
 </playground>
