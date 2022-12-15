@@ -1,13 +1,16 @@
+//: [Previous](@previous)
+
 import Foundation
 
 struct Stack {
-    private var items = [Int]()
+    
+    var items = [Int]()
     
     var count: Int {
         return items.count
     }
     
-    func peek() -> Int {
+    func top() -> Int {
         guard let topElement = items.first else {
             fatalError("This stack is empty")
         }
@@ -23,49 +26,50 @@ struct Stack {
     }
 }
 
-func sortStack(stack: inout Stack) -> Stack {
+func reverseAStack(stack: inout Stack) -> Stack {
     
     //Base
     if stack.count == 1 {
         return stack
     }
     
-    //Hypothesis
-    let value = stack.peek()
-    stack.pop()
-    sortStack(stack: &stack)
-
-    //Induction
-    insert(stack: &stack, temp: value)
+    //HYPOTHESIS
+    let top = stack.top()
+    _ = stack.pop()
+    reverseAStack(stack: &stack)
+    
+    //INDUCTION
+    insert(stack: &stack, temp: top)
     return stack
 }
 
 func insert(stack: inout Stack, temp: Int) {
     
+    
     print("stack --> \(stack)")
     print("temp --> \(temp)")
     
-    //Base
-    if stack.count == 0 || stack.peek() <= temp {
+    //BASE
+    if stack.count == 0 {
         stack.push(element: temp)
         return
     }
     
-    //Hypothesis
-    let value = stack.peek()
-    stack.pop()
+    //HYPOTHESIS
+    let top = stack.top()
+    _ = stack.pop()
     insert(stack: &stack, temp: temp)
     
-    //Induction
-    stack.push(element: value)
+    //INDUCTION
+    stack.push(element: top)
 }
 
 var stack = Stack()
-stack.push(element: 3)
-stack.push(element: 5)
-stack.push(element: 2)
 stack.push(element: 1)
-stack.push(element: 0)
+stack.push(element: 2)
+stack.push(element: 3)
+stack.push(element: 4)
+stack.push(element: 5)
 
 print(stack)
-print(sortStack(stack: &stack))
+print(reverseAStack(stack: &stack))
