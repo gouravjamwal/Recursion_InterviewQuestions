@@ -42,9 +42,6 @@ func sortStack(stack: inout Stack) -> Stack {
 
 func insert(stack: inout Stack, temp: Int) {
     
-    print("stack --> \(stack)")
-    print("temp --> \(temp)")
-    
     //Base
     if stack.count == 0 || stack.peek() <= temp {
         stack.push(element: temp)
