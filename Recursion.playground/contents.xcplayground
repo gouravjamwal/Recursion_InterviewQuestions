@@ -9,5 +9,6 @@
         <page name='Kth Symbol in Grammar '/>
         <page name='Reverse A Stack Using Recursion'/>
         <page name='Tower of Hanoi'/>
+        <page name='PrintSubsets'/>
     </pages>
 </playground>
