@@ -10,5 +10,7 @@
         <page name='Reverse A Stack Using Recursion'/>
         <page name='Tower of Hanoi'/>
         <page name='PrintSubsets'/>
+        <page name='Permutation with Spaces'/>
+        <page name='Power Set'/>
     </pages>
 </playground>

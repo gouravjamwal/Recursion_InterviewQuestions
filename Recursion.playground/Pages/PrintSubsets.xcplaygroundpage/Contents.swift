@@ -21,5 +21,3 @@ func solve(_ ip: String,_ op: String) {
     solve(ip, op1)
     solve(ip, op2)
 }
-
-solve( "abc", "")
