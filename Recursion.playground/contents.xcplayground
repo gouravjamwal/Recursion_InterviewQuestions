@@ -12,5 +12,6 @@
         <page name='PrintSubsets'/>
         <page name='Permutation with Spaces'/>
         <page name='Power Set'/>
+        <page name='Permutation with Case Change'/>
     </pages>
 </playground>
