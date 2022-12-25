@@ -13,5 +13,7 @@
         <page name='Permutation with Spaces'/>
         <page name='Power Set'/>
         <page name='Permutation with Case Change'/>
+        <page name='Letter Case Permutation'/>
+        <page name='Generate Balannced Paranthesis'/>
     </pages>
 </playground>
