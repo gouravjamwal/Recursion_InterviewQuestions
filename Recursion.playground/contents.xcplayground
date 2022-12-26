@@ -15,5 +15,7 @@
         <page name='Permutation with Case Change'/>
         <page name='Letter Case Permutation'/>
         <page name='Generate Balannced Paranthesis'/>
+        <page name='Print N-bit binary numbers having more 1’s than 0’s for any prefix'/>
+        <page name='Josephus Problem | Game of Death in a circle | Execution in Circle '/>
     </pages>
 </playground>
